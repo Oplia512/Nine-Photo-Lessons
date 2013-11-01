@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_start"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:src="@drawable/ic_header" />
+
+    <Button
+        android:id="@+id/btnMainFrameAbout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="0"
+        android:background="@drawable/ic_i_button" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnSatrtLessons"
+        android:layout_width="163dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/ic_button_start_lessons"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingBottom="2dp"
+        android:text="@string/start_lessons"
+        android:textColor="@color/text_btn_start_lesson"
+        android:textSize="15sp" />
+
+</LinearLayout>

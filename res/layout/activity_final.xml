@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_final_page"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnToPartners"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="281dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/ic_i_button" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_text_final" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnEstimate"
+            android:layout_width="227dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/ic_button_estimate" />
+
+        <Button
+            android:id="@+id/btnDevelopers"
+            android:layout_width="227dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_button_developers" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="227dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_button_about" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_text_final_2" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/ic_button_home" />
+
+</LinearLayout>
